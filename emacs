@@ -1,6 +1,6 @@
 (defun latest-file (path)
   "Get latest file (including directory) in PATH."
-  (car (directory-files path 'full nil #'file-newer-than-file-p)))
+  (car (directory-files path 'nil nil #'file-newer-than-file-p)))
 
 (defun screen ()
   (interactive)
