@@ -7,5 +7,4 @@
   (insert (concat "[[file:" (latest-file ".") "]]"))
   (org-display-inline-images))
 
-
-
+(setq org-startup-with-inline-images t)
